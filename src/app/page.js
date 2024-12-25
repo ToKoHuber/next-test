@@ -1,16 +1,21 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { NarutoCart } from "@/components/Cart";
-import { SasukeCart } from "@/components/Cart";
+"use client";
+import { useState } from "react";
 
-export default function Home() {
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+export default function calculator() {
+  const [number, setNumber] = useState();
   return (
-    <div className={styles.container}>
-      <div>
-        <h1>Hello</h1>
-
-        <NarutoCart />
-        <SasukeCart />
+    <div>
+      <p>Number:{number}</p>
+      <div style={{ style: "flex" }}>
+        {numbers.map((number) => {
+          return (
+            <div>
+              <button onClick={() => setNumber(number)}>{number}</button>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

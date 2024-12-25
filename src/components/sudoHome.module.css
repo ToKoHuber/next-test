@@ -1,0 +1,25 @@
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px black solid;
+}
+
+.buttons {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.incDecbutton {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
