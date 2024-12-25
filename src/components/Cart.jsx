@@ -14,6 +14,7 @@ const SasukeContent = {
   imgUrl:
     "https://image.tensorartassets.com/cdn-cgi/image/anim=false,plain=false,w=500,q=85/model_showcase/671003870501078399/1b5b8f17-ad27-4194-8cb6-cdb6910379e0.png",
 };
+
 export const NarutoCart = () => {
   return (
     <div>

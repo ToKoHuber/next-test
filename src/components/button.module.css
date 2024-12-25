@@ -1,0 +1,27 @@
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px black solid;
+}
+
+.buttonContainer {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ButtonBox {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
