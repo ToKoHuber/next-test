@@ -24,7 +24,7 @@ export default function () {
     <div>
       <div className={style.buttonContainer}>
         <div>
-          <button onClick={Increment}>Inc</button>
+          <button onClick={Increment} >Inc</button>
         </div>
         <div>
           <button onClick={Decrement}>Dec</button>
